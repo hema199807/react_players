@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+#headding-div{
+  margin:2% 35%;
+  color:indigo;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#showbtn{
+  margin:2% 40%;
+  background-color: crimson;
+  padding: 5px 20px;
   color: white;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+}
+#loading-div{
+  margin:20% 45%;
 }
 
-.App-link {
-  color: #61dafb;
-}
+#player-details{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2% 8%;
+  box-sizing: border-box;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+#player-image-div{
+  width: 40%;
+  height: 70vh;
+  padding-right: 8%;
+  box-sizing: border-box;
+  align-self: flex-start;
+  margin-left: 10%;
+}
+#player-details-image{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+#player-details-div{
+  align-self: flex-start;
+  width: 60%;
+  box-sizing: border-box;
+  z-index: 5;
+}
+#player-title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  color: orangered;
+}
+#player-brand {
+  font-weight: 600;
+  color: black;
+  opacity: 0.6;
+  margin: 0;
+  margin-top: 8px;
+  text-transform:capitalize;
+  font-size: 25px;
+}
+.player-section-heading {
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.player-personal-details {
+  max-width: 500px;
+  font-size: 18px;
+  font-weight: 400;
+  color:darkslategray;
+  margin: 0;
+  display: inline-block;
+}
+#prev-button{
+  margin-left:30%;
+  outline: none;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  padding:8px 12px;
+}
+#next-button{
+  margin-left:25%;
+  outline: none;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  padding:8px 12px;
 }
